@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Temacol - Eficiencia a tu servicio. Conoce nuestros productos, servicios especializados y más."
+        name="description" />
+    <title>NuestrosProductos</title>
+    <link href="../Subcatprod.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a2c1f2d409.js"></script>
+    <meta content="productos agroindustriales, veterinaria, maquinaria agrícola" name="keywords" />
+    <meta content="Temacol" name="author" />
+    <meta name="robots" content="index, follow" />
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <!--INICIO-ENCABEZADO-HEADER-->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img alt="Logo Temacol" loading="lazy" src="../assets/Logo_amarillo.png" />
+            </div>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú de navegación">☰</button>
+        <nav class="navbar" role="navigation">
+            <a href="#">Inicio</a>
+            <a class="active" href="../pages/NuestrosProductos.html">Nuestros productos</a>
+            <!--<a href="pages/ServicioEspecializado.html">Servicio especializado</a>-->
+            <!--<a href="pages/NuestroBlog.html">Nuestro blog</a>-->
+            <a href="../pages/QuienesSomos.html">¿Quiénes somos?</a>
+            <a href="../pages/Contacto.html">Contacto</a>
+            <!--<a aria-label="Acceder al login" href="#" target="_blank">
+        <img alt="Contacto" loading="lazy" src="./assets/LogoLogin.png" />
+      </a>-->
+            <!--<a aria-label="Ir al carrito" href="#" target="_blank">
+        <img alt="Contacto" loading="lazy" src="./assets/LogoCarrito.png" />
+      </a>-->
+        </nav>
+        </div>
+    </header>
+    <!--FIN-ENCABEZADO-HEADER-->
+    <main>
+        <!--INICIO-BOTON-BUSQUEDA-->
+        <section class="search-section">
+            <div class="search-box-header">
+                <input type="text" id="globalSearchInput" placeholder="Buscar..." />
+                <button id="globalSearchBtn">
+                    <img src="../assets/LogoBuscar.png" alt="Buscar" />
+                </button>
+            </div>
+        </section>
+        <!--FIN-BOTON-BUSQUEDA-->
+        <!--INICIO-SECCION-SELECCION-FINAL-DE-PRODUCTO-->
+        <!--SECCION-DE-PRODUCTO-FINAL-->
+        <main class="product-container">
+            <section class="gallery">
+                <div id="main-display">
+                    <!-- Aquí se cargará la imagen/video activo -->
+                    <img src="../assets/cattle-grazing-meadow.B.jpg" alt="Vista principal" id="main-media" />
+                </div>
+                <div class="thumbnails">
+                    <img src="../assets/close-up-view-legs-farmer-working-with-fresh-grass-animal-barn.B.jpg"
+                        alt="ImageProduct" onclick="changeMedia(this)" />
+                    <img src="../assets/cow-milking-facility-mechanized-milking-equipment.B.jpg" alt="ImageProduct"
+                        onclick="changeMedia(this)" />
+                    <div class="thumb-video">
+                        <video src="../assets/BringMeToLife.mp4" poster="../assets/cattle-grazing-meadow.B.jpg"
+                            alt="ImageProduct" onclick="changeMedia(this)">
+                            Tu navegador no soporta video.
+                        </video>
+                    </div>
+                    <div class="thumb-video">
+                        <video src="../assets/BringMeToLife.mp4"
+                            poster="../assets/herd-cows-grazing-pasture-daytime.B.jpg" alt="ImageProduct"
+                            onclick="changeMedia(this)">
+                            Tu navegador no soporta video.
+                        </video>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="product-info">
+                <h2>Producto 01</h2>
+                <p class="price">$ 78.500</p>
+                <p class="category">Ordeño</p>
+                <button class="btn-primary" onclick="location.href='#'">Comprar</button>
+                <div class="download-buttons">
+                    <button class="btn-download" onclick="location.href='#'">Descargar manual <span
+                            class="arrow">➔</span></button>
+                    <button class="btn-download" onclick="location.href='#'">Descargar instrucciones
+                        <span class="arrow">➔</span></button>
+                </div>
+            </section>
+        </main>
+
+        <div class="navigation-arrows">
+            <button onclick="goToPreviousProduct()">⬆</button>
+            <button onclick="goToNextProduct()">⬇</button>
+        </div>
+        <!--FIN-SECCION-SELECCION-FINAL-DE-PRODUCTO-->
+        <!--SECCION-->
+        <!--SECCION-->
+        <!--SECCION-->
+        <!--SECCION-->
+        <!--SECCION-->
+        <!--INICIO-LINEA-DE-DIVISION-->
+        <div class="section-divider"></div>
+        <!--FIN-LINEA-DE-DIVISION-->
+        <!--INICIO-FOOTER-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="../assets/Logo_amarillo.png" alt="Logo Temacol" loading="lazy" />
+                </div>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+                    archivos de texto.
+                </p>
+                <hr />
+                <div class="social-icons">
+                    <!--<a href="https://facebook.com/" target="_blank">
+            <img alt="Facebook" loading="lazy" src="../assets/LogoFacebook.png" />
+          </a>-->
+                    <a href="https://instagram.com/" target="_blank">
+                        <img alt="Instagram" loading="lazy" src="../assets/LogoInstagram.png" />
+                    </a>
+                    <!--<a href="https://x.com/" target="_blank">
+            <img alt="Twitter" loading="lazy" src="../assets/LogoX.png" />
+          </a>-->
+                    <!--<a href="https://tiktok.com/" target="_blank">
+            <img alt="TikTok" loading="lazy" src="../assets/LogoTiktok.png" />
+          </a>-->
+                    <a href="https://youtube.com/" target="_blank">
+                        <img alt="YouTube" loading="lazy" src="../assets/LogoYoutube.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Links de interés</h3>
+                <ul>
+                    <li>
+                        <a href="#"> Inicio </a>
+                    </li>
+                    <li>
+                        <a href="pages/NuestrosProductos.html"> Nuestros productos </a>
+                    </li>
+                    <!--<li>
+            <a href="pages/ServicioEspecializado.html">
+              Servicio especializado
+            </a>
+          </li>-->
+                    <!--<li>
+            <a href="pages/NuestroBlog.html"> Nuestro blog </a>
+          </li>-->
+                    <li>
+                        <a href="pages/QuienesSomos.html"> ¿Quiénes somos? </a>
+                    </li>
+                    <li>
+                        <a href="pages/Contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EdwinAGalvisP</p>
+            <div class="footer-links">
+                <a href="#"> Términos y condiciones </a>
+                <a href="#"> Políticas de privacidad </a>
+            </div>
+        </div>
+    </footer>
+    <!--FIN-FOOTER-->
+    <!--INICIO-BOTON-FLOTANTE-WHATSAPP-->
+    <a href="https://wa.me/573182097757" class="whatsapp-icon" target="_blank" aria-label="Conéctate por WhatsApp">
+        <img src="../assets/WhatsApp_icon.png" alt="WhatsApp" />
+    </a>
+    <!--FINAL-BOTON-FLOTANTE-WHATSAPP-->
+    <script src="../menu.js"></script>
+    <script src="../searchhandler.js"></script>
+    <script src="../subcatprod.js"></script>
+</body>
+
+</html>
