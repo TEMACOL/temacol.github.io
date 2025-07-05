@@ -229,6 +229,7 @@ header {
 }
 
 .store-image img {
+  height: 238px;
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
